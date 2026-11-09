@@ -1,0 +1,20 @@
+# 构建产物
+/dist/
+/onessh.exe
+/onessh
+onessh_linux_amd64
+onessh_linux_arm64
+tc.exe
+tc_linux
+genkey_linux
+
+# 运行期数据目录（host key 等，含私钥，切勿提交）
+/data/
+
+# 本地缓存与测试残留
+/.gocache/
+*.log
+testclient_key*
+tkey*
+authorized_keys
+sftp_test.txt
